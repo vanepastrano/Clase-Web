@@ -1,0 +1,42 @@
+#wrapper {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contenido {
+	max-width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+body {
+	background-color: #E2FFF8;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 2em;
+	text-align: center;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.features {
+	max-width: 300px;
+	padding: 10px;
+	background-color: cyan;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.features img {
+	max-width: 300px;
+}
+
+.features p {
+	font-family: Arial;
+	padding: 10px;
+	text-align: justify;
+}
