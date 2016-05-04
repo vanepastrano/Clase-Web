@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy|Lato:400,300,700,900,400italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300,900);
 
 #wrapper {
 	max-width: 1300px;
@@ -71,8 +72,6 @@ h6 {
 body {
 	background-color: #82c9ff;
 }
-
-ul {list-style-type: circle;}
 
 header {
 	background-image: url();
@@ -362,4 +361,34 @@ el height.*/
 
 #footlink a img:active {
 	opacity: 0.8;
+}
+
+#cvbox {
+	background-color: blue;
+	width: 60%;
+	height: 120px;
+	position: relative;
+	display: inline-block;
+}
+
+#cvbox #cvcontainer {
+	background-color: white;
+	width: 70%;
+	border-radius: 50px;
+	text-align: center;
+	position: absolute;
+	left: 15px; right: 15px; top: 15px; bottom: 15px;
+}
+
+#cvh1 {
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	left: 15px; right: 15px; top: 20px; bottom: 15px;
+	margin: auto;
+}
+
+#cvimgconainer {
+	background-color: blue;
+	display: inline-block;
+	width: 20%;
 }
